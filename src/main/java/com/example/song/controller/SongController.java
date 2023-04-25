@@ -34,8 +34,7 @@ public class SongController{
         return songService.getSongById(songId);
     }
 
-    @PostMapping("/songs")
-    public Song addSong(@RequestBody Song song){
+    @PostMapping("/song    public Song addSong(@RequestBody Song song){
         return songService.addSong(song);
     }
 
